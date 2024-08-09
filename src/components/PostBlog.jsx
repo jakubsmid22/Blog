@@ -116,7 +116,7 @@ const PostBlog = () => {
             onChange={(e) => setTitle(e.target.value)}
             id="title"
             placeholder="Enter the title"
-            maxLength={100}
+            maxLength={150}
             className="w-full outline-none p-2 border rounded resize-none overflow-hidden min-h-[40px] max-h-[300px]"
             rows="1"
           ></textarea>
@@ -130,7 +130,7 @@ const PostBlog = () => {
             onChange={(e) => setDescr(e.target.value)}
             id="descr"
             placeholder="Enter description"
-            maxLength={300}
+            maxLength={500}
             className="w-full outline-none p-2 border rounded resize-none overflow-hidden min-h-[40px] max-h-[300px]"
             rows="1"
           ></textarea>
@@ -144,7 +144,7 @@ const PostBlog = () => {
             onChange={(e) => setContent(e.target.value)}
             id="content"
             placeholder="Write your article here"
-            maxLength={1500}
+            maxLength={3000}
             className="w-full outline-none p-2 border rounded resize-none overflow-hidden min-h-[40px] h-fit"
             rows="1"
           ></textarea>

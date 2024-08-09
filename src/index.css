@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-confirm-alert-button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .react-confirm-alert-button-group button {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .react-confirm-alert-button-group .confirm-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .react-confirm-alert-button-group .cancel-button {
+    background-color: green;
+    color: white;
+  }
